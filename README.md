@@ -1,6 +1,6 @@
 # SQL-Projects
 Welcome to the **SQL Projects** section of my portfolio.  
-This folder showcases data analysis, cleaning, modeling, and exploratory projects built using SQL in **SQL Server** and **MySQL** environments. These projects reflect my ability to write optimized queries, structure data effectively, and extract meaningful insights from raw datasets.
+This folder showcases data analysis, cleaning, modeling, and exploratory projects built using SQL in SQL Server, MySQL and PostgreSQL environments. These projects reflect my ability to write optimized queries, structure data effectively, and extract meaningful insights from raw datasets.
 
 ## Skills Demonstrated
 
