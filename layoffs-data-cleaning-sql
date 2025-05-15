@@ -1,0 +1,31 @@
+# Layoffs Data Cleaning (SQL)
+
+This project showcases my data cleaning process using SQL on a dataset about global layoffs. The objective was to standardize, clean, and prepare the data for analysis.
+
+---
+
+## 🧰 Tools Used
+- MySQL
+- SQL (Window functions, CTEs, data transformation)
+
+---
+
+## 📋 Key Tasks Performed
+
+- ✅ Removed duplicate records using `ROW_NUMBER() OVER (...)`
+- ✅ Standardized textual data (e.g., trimming company names, unifying industry labels like "Crypto")
+- ✅ Transformed string-formatted dates to proper `DATE` datatype
+- ✅ Replaced blank values with NULLs and populated missing values using self joins
+- ✅ Deleted irrelevant records with fully missing key metrics
+- ✅ Dropped unnecessary columns (`row_num`)
+
+---
+
+## 🗃️ Sample Schema Used
+
+```sql
+USE world_layoffs;
+
+CREATE TABLE layoffs (...); -- Original table not modified
+CREATE TABLE layoffs_working LIKE layoffs; -- Working table
+CREATE TABLE layoffs_working2 AS ...; -- Final cleaned dataset
