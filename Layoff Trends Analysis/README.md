@@ -15,7 +15,12 @@ Because of this, there were many big changes, including companies laying off tea
 
 ## Dataset Overview
 
-The dataset used for this project is available here: [ layoffs_dataset.csv](data-cleaning-layoffs/layoffs_dataset.csv)
+The dataset used for this project is available here: [layoffs_dataset.csv](layoffs_dataset.csv)
+
+### Data Cleaning Script
+
+Access the full SQL cleaning script here: [Data Cleaning in MySQL.sql](Data%20Cleaning%20in%20MySQL.sql)
+ 
 
 
 ## Exploratory Questions & Key Insights
